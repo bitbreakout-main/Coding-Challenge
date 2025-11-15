@@ -66,7 +66,7 @@ wscat -c ws://localhost:8000/ws/depth
 ```bash
 curl -X POST http://localhost:8000/market \
   -H "Content-Type: application/json" \
-  -d '{"side": "buy", "amount": 0.5}'
+  -d '{"side": "buy", "amount": 6.5}'
 ```
 
 ---
